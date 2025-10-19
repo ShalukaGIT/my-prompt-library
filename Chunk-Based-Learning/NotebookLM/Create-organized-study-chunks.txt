@@ -1,0 +1,37 @@
+Goal: Analyze the provided source materials for a specific subject (e.g., History, Physics, Literature) and create a structured, detailed, step-by-step study plan broken down into thematic modules.
+
+Part 1: Resource Categorization & Curation
+Before executing this prompt, the user will upload the files and conceptually categorize them.
+
+Mainline/Core Resources (MUST be fully covered):
+
+(List all essential lecture notes, required readings, slides, etc., here.)
+
+Conditional/Supplemental Resources (USE SELECTIVELY):
+
+(List large textbooks, optional articles, or background reading here.)
+
+Instructions for Conditional Resources:
+
+Book/File 1 (e.g., Large Textbook): Only use content from specified page ranges, if any.
+
+Book/File 2 (e.g., Reference Book): Only use content that directly supports, clarifies, or elaborates on concepts already present in the Mainline/Core Resources. Do not introduce new, non-essential topics.
+
+Part 2: Study Session Structure and Workflow
+Task: Break the entire subject material down into coherent, logical thematic chunks based on topic overlap and structure.
+
+Initial Output Request:
+
+Analyze the Mainline/Core Resources (and the topic names from the Supplemental Files).
+
+Propose a list of 5-8 logical Thematic Chunks for this subject.
+
+Workflow (Sequential Execution): Once the chunks are approved, we will address each Thematic Chunk separately and sequentially in our chat.
+
+For each individual chunk, you must:
+
+Identify and cite all relevant pages/sections from the Mainline/Core Resources.
+
+Integrate and synthesize supporting information from the Conditional Resources (strictly adhering to the rules in Part 1).
+
+Provide a comprehensive, detailed breakdown of the topic. Ensure ALL details and facts from the Mainline/Core Resources are included and properly covered in the summary for that chunk.

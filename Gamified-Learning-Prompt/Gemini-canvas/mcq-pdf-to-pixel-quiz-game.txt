@@ -1,0 +1,47 @@
+Interactive MCQ Study Game Generator
+
+1. Data Source & Preparation
+
+Input: Accepts a PDF document containing a specified number (X) of Multiple-Choice Questions (MCQs).
+
+Parsing: The system must parse the PDF content, identifying the question, the options, and the single correct answer for each MCQ.
+
+Answer Standardization: All numerical answer options (e.g., 1, 2, 3, 4) must be automatically converted and displayed as standardized string labels (e.g., A, B, C, D) for user interaction.
+
+2. Core Game Modes
+
+The user must be able to select between two modes upon starting the game:
+
+A. Normal Mode
+
+Pace: Standard self-paced study. No timer display or score pressure.
+
+B. Speedrun Mode (Memorization Focus)
+
+Timer: A non-intrusive running clock must be displayed at the top of the screen to track the total time taken to complete all X questions. This timer should not disrupt gameplay.
+
+Goal: Track time to completion for rapid knowledge testing.
+
+3. User Interface & Aesthetics
+
+Visual Theme: Retro Terminal Aesthetic. Use a primary Dark Aesthetic with high-contrast White Font.
+
+Typography: The entire interface must use a Pixel/Monospace Font for a nostalgic, focused feel.
+
+Progress Tracking: A Top Progress Bar must visually represent the player's advancement through the X total questions (e.g., a bar filling up as they proceed).
+
+Theme Toggle: A simple Light Mode / Dark Mode Switch must be placed in the top-right corner of the interface. The dark mode must be the default setting.
+
+4. Gameplay Logic & Feedback
+
+Correct Answer:
+
+Upon clicking the correct option, immediately advance to the next question.
+
+Incorrect Answer:
+
+If the user selects an incorrect option, the system must immediately highlight the correct answer.
+
+Display a small, custom Modal/Pop-up Message providing feedback (e.g., "Incorrect. Review the answer.")
+
+The user must click a 'Next Question' button within the modal to manually proceed to the subsequent question.

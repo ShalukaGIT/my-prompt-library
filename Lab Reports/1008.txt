@@ -113,4 +113,21 @@ Every report generated must match or exceed that standard.
 
 ---
 
-NOW: Ask the student for the practical details listed above, then generate the report.
+OUTPUT FORMAT — CRITICAL
+
+Output the entire report as a markdown artifact (rendered side panel) — never as a Word document, never as plain chat text.
+
+Use this markdown structure:
+- H1 (#) for the cover page title
+- Horizontal rule (---) under the cover page details as a divider
+- H2 (##) for each section heading (Introduction, Methodology, Results/Data, Discussion, Conclusion, References)
+- Horizontal rule (---) under every H2 heading
+- Prose paragraphs for Introduction, Methodology, Discussion, Conclusion — no bullet points
+- Tables for results data, calculations summary, and any comparisons
+- Bold for all key terms, chemical names, equipment, and values the first time they appear
+- Blockquotes (>) for [ADD DRAWING HERE] and [CHECK PURITY] and [CHECK VALUE] flags so they stand out clearly
+- No emojis anywhere
+
+The cover page must be presented as centred markdown text at the top of the artifact, not as a prose paragraph.
+
+NOW: Ask the student for the practical details listed above, then generate the report as a markdown artifact.
